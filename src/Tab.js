@@ -5,7 +5,7 @@ import Logo from './images/en.jpg'
 import ScaleText from "react-scale-text";
 
 
-class Header extends React.Component{
+class Tab extends React.Component{
     render(){
         return(
         //    <div >
@@ -16,9 +16,9 @@ class Header extends React.Component{
                
         //        </div> 
         
-        <img src={Logo} className="img-fluid"/>
+        <p class="text-lg-center">Left aligned text on viewports sized LG (large) or wider.</p>
                
         );
     }
 }
-export default Header;
+export default Tab;
